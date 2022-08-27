@@ -53,8 +53,7 @@
               </div>
             </div>
 
-            <h2>CLIENTS NAME</h2>
-            <h3>any other name</h3>
+            <h2>MS. DORIS YEBOAH</h2>
           </div>
 
           <ul class="icons">
@@ -69,22 +68,25 @@
         <h1>YOU WELCOME<span>!</span></h1>
         <h2>Here's what you should know about us</h2>
         <div class="about-btns">
-          <button type="button" class="btn btn-pink">Product info</button>
-          <a href="Contact page.html" target="_blank">
-            <button type="button" class="btn btn-outline-light">Email Contact</button>
-          </a>
+               <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Email Contact
+        </button>
         </div>
+          
+        
 
         <div class="about-para">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-            aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid
-            laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam
-            numquam? Temporibus, molestias amet.
+            We offer large scale catering services for schools, corporate 
+            bodies, weddings, baby christenings, funerals, birthdays
+             and more…
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure
-            tempora alias laudantium sapiente impedit!
+            Food {local and continental dishes}, 
+            pastries, cakes{birthday cakes/ cupcakes
+               & wedding cakes}, local beverages, fruit juice,
+               food hampers, etc
           </p>
         </div>
         <div class="credit">
@@ -92,5 +94,28 @@
         </div>
       </div>
     </div>
+
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="mailto:mukadusm@yahoo.com">
+          <input type="text" class="field form-control my-3" placeholder="Enter Name" />
+          <input type="email" class="field form-control my-3" placeholder="Enter Email" />
+          <input type="text" class="field form-control my-3" placeholder="Tel." />
+          <textarea class="field area form-control my-3" rows="7"  placeholder="Comments"></textarea>
+          <button type="submit" class="btn btn-outline-success my-3">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
