@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+/*Main Dashboard Styling*/
+#dashboard_earnings .notif_heading {
+    background-color: #17A673;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#dashboard_pending .notif_heading {
+    background-color: #F6C23E;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#dashboard_completed .notif_heading {
+    background-color: #4E73DF;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#chart_container {
+    width: 60vw;
+}

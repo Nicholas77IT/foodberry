@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black !important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+     height: 40px;
+     width: 80%;
+     border-radius: 60px;
+     outline: none;
+     margin-right: -35px ;
+     border: 2px solid rgb(248, 26, 92);
+    
+}
+
+nav {
+    box-shadow: -2px 13px 11px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 13px 11px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 13px 11px -12px rgba(0,0,0,0.75);
+    /* position: absolute; */
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none ;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+h1{
+    font-weight: 700;
+
+}
+
+.container3{
+    background: rgb(236, 180, 211);
+}
+
+
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none ;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background: rgb(207, 33, 85);
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: -3px -2px 20px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -3px -2px 20px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px -2px 20px -4px rgba(0,0,0,0.75);
+transition: o.5s;
+}
