@@ -27,21 +27,20 @@
     color: black;
 }
 
-.search{
-     height: 40px;
-     width: 80%;
-     border-radius: 60px;
-     outline: none;
-     margin-right: -35px ;
-     border: 2px solid rgb(248, 26, 92);
-    
-}
-
 nav {
     box-shadow: -2px 13px 11px -12px rgba(0,0,0,0.75);
     -webkit-box-shadow: -2px 13px 11px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 13px 11px -12px rgba(0,0,0,0.75);
     /* position: absolute; */
+}
+
+.bi-cart2 {
+    margin-right: 5%;
+}
+
+.bi-cart2:hover {
+    color: #ec0a2f;
+    cursor: pointer;
 }
 
 .btn0{
@@ -86,4 +85,24 @@ h1{
 -webkit-box-shadow: -3px -2px 20px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: -3px -2px 20px -4px rgba(0,0,0,0.75);
 transition: o.5s;
+}
+
+
+/*Make cake styling*/
+#make_cake {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ec0a2f;
+}
+
+#make_cake_submit {
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #ec0a2f;
+    color: #ec0a2f;
+}
+
+#make_cake_submit:hover {
+    background-color: #ec0a2f;
+    color: #fff;
 }

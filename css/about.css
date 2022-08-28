@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    color:rgb(119, 95, 176)
+    color:#ec0a2f;
 }
 .about-left-content > div{
     background: #12192c;
@@ -61,7 +61,7 @@ body{
     margin: 2.2rem 0 0.6rem 0;
     line-height: 1.2;
     padding-bottom: 1rem;
-    border-bottom: 2px solid #B721FF;
+    border-bottom: 2px solid #ec0a2f;
 }
 .about-left-content h3{
     text-transform: uppercase;
@@ -78,7 +78,7 @@ body{
 }
 .icons li{
     list-style-type: none;
-    background: #B721FF;
+    background: #ec0a2f;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -111,7 +111,7 @@ body{
     text-transform: uppercase;
 }
 .about-right h1 span{
-    color: #B721FF;
+    color: #ec0a2f;
 }
 .about-right h2{
     font-weight: 600;
@@ -135,9 +135,9 @@ body{
     color:#fff
 }
 .btn.btn-pink{
-    background: #B721FF;
+    background: #ec0a2f;
     color: #fff;
-    border-color: #B721FF;
+    border-color: #ec0a2f;
     transition: all 0.5s ease-in-out;
 }
 .btn.btn-pink:hover{
@@ -149,8 +149,8 @@ body{
     transition: all 0.5s ease-in-out;
 }
 .btn.btn-outline-light:hover{
-    background: #B721FF;
-    border-color: #B721FF;
+    background: #ec0a2f;
+    border-color: #ec0a2f;
     color: #fff;
 }
 .about-para p{
@@ -181,6 +181,6 @@ body{
 }
 .credit a{
     text-decoration: none;
-    color:#B721FF;
+    color:#ec0a2f;
     font-weight: bold;
 }
