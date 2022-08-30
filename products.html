@@ -35,16 +35,15 @@
               <a class="nav-link" href="products.html">MENU</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PLACE ORDER </a>
+              <a class="nav-link" href="place_order.html">PLACE ORDER </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">ABOUT US</a>
             </li>
           </ul>
-          <i class="bi bi-cart2 fs-3" data-bs-toggle="modal" data-bs-target="#cart_modal"></i>
+          <i class="bi bi-cart2 fs-3" data-bs-toggle="offcanvas" data-bs-target="#cart_canvas"></i>
           <div class="d-flex justify-content-center">
-              <i class="bi bi-telephone-fill py-2"></i><a class="nav-link" href="tel:">0247777777</a>
-          </div>
+            <i class="bi bi-telephone-fill py-2"></i><a class="nav-link" href="tel:+233241786372">0241786372</a>          </div>
         </div>
       </div>
       <div>
@@ -64,14 +63,16 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-lg-3 text-center">
+        <div id="cake_div" class="col-lg-3 text-center">
           <div class="card border-0 bg-light mb-2">
             <div class="card-body">
               <img src="images/cup1.jpg" class="img-fluid" alt="">
             </div>
           </div>
           <h6>Birthday Cake</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addCake()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -81,7 +82,9 @@
             </div>
           </div>
           <h6>Cake Parfait</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addParfait()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -91,7 +94,9 @@
             </div>
           </div>
           <h6>Spring Rolls</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addSpringrolls()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -101,7 +106,9 @@
             </div>
           </div>
           <h6>Meat Pie</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addMeatpie()">
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
@@ -120,7 +127,9 @@
             </div>
           </div>
           <h6>Banku with chili pepper and Tilapia</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addBankuchili()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -130,7 +139,9 @@
             </div>
           </div>
           <h6>Vegetable Jollof rice with Chicken/Fish</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addJollof()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -140,7 +151,9 @@
             </div>
           </div>
           <h6>Fried rice with Chicken/Fish</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addFriedrice()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -150,7 +163,9 @@
             </div>
           </div>
           <h6>Waakye with Fish/Chicken</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addWaakye()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -160,7 +175,9 @@
             </div>
           </div>
           <h6>Chicken wings with fried yam chips</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addYam()">
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
@@ -179,7 +196,9 @@
             </div>
           </div>
           <h6>Asana</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addAsana()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -189,7 +208,9 @@
             </div>
           </div>
           <h6>Lamugine</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addLamugine()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -199,7 +220,9 @@
             </div>
           </div>
           <h6>Pineapple Juice</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addPineapple()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -209,7 +232,9 @@
             </div>
           </div>
           <h6>Watermelon Juice</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addWatermelon()">
+            Add to Cart
+          </button>
         </div>
 
         <div class="col-lg-3 text-center">
@@ -219,7 +244,9 @@
             </div>
           </div>
           <h6>Orange Juice</h6>
-          <button class="btn1">Add to Cart</button>
+          <button type="button" class="btn1" data-bs-trigger="focus" data-bs-delay="200" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Added to Cart" onclick="addOrange()">
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
@@ -433,22 +460,20 @@
   </footer>
   <!-- Footer -->
     
-  <!-- Cart Modal -->
-  <div class="modal fade" id="cart_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Oh hi!!
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
+  <!-- Cart -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="cart_canvas" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">Cart</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body border rounded">
+      <p id="cart_display" class="text-start fs-5 lh-lg">
+
+      </p>
+      <form action="">
+        <textarea hidden name="" id="cart_elements" cols="30" rows="10" class="px-2"></textarea> <br>
+        <button type="submit" class="btn btn-outline-primary">Place Order</button>
+      </form>
     </div>
   </div>
   <script src="js/products.js"></script>

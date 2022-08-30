@@ -112,3 +112,21 @@ transition: o.5s;
         width: 500px !important;
     }
 }
+
+
+/*Cart styling*/
+.offcanvas button {
+    border-radius: 10px;
+    border-color: #ec0a2f;
+    color: #ec0a2f;
+}
+
+.offcanvas button:hover {
+    border-color: #ec0a2f;
+    background-color: #ec0a2f;
+    color: #fff;
+}
+
+#cart_display {
+    
+}
