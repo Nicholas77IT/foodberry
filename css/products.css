@@ -39,7 +39,7 @@ nav {
 }
 
 .bi-cart2:hover {
-    color: #ec0a2f;
+    color: #AB3436;
     cursor: pointer;
 }
 
@@ -59,8 +59,9 @@ h1{
 
 }
 
-.container3{
-    background: rgb(236, 180, 211);
+.container2{
+    background: #AB3436;
+    color: #fff;
 }
 
 
@@ -92,18 +93,19 @@ transition: o.5s;
 #make_cake {
     border-style: solid;
     border-radius: 10px;
-    border-color: #ec0a2f;
+    border-color: #fff;
 }
 
 #make_cake_submit {
     background-color: #fff;
     border-radius: 5px;
-    border-color: #ec0a2f;
-    color: #ec0a2f;
+    border-color: #fff;
+    color: #AB3436;
 }
 
 #make_cake_submit:hover {
-    background-color: #ec0a2f;
+    background-color: #70e122;
+    border-color: #70e122;
     color: #fff;
 }
 
@@ -117,16 +119,12 @@ transition: o.5s;
 /*Cart styling*/
 .offcanvas button {
     border-radius: 10px;
-    border-color: #ec0a2f;
-    color: #ec0a2f;
+    border-color: #AB3436;
+    color: #AB3436;
 }
 
 .offcanvas button:hover {
-    border-color: #ec0a2f;
-    background-color: #ec0a2f;
+    border-color: #AB3436;
+    background-color: #AB3436;
     color: #fff;
-}
-
-#cart_display {
-    
 }

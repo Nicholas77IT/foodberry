@@ -14,7 +14,7 @@ nav {
 }
 
 nav a:hover {
-    color: #ec0a2f !important;
+    color: #AB3436 !important;
 }
 
 #banner {
@@ -34,7 +34,7 @@ nav a:hover {
 
 .carousel-caption button {
     background-color: #fff;
-    border-color: #ec0a2f;
+    border-color: #AB3436;
     border-style: solid;
     border-radius: 10px;
     width: 150px;
@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 .carousel-caption button:hover {
-    background-color: #ec0a2f;
+    background-color: #AB3436;
     color: #fff;
     border-color: #fff;
 }
@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 #products a:hover {
-    color: #ec0a2f;
+    color: #AB3436;
 }
 
 #products_img img {
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 #surprise {
-    background-color: #ec0a2f;
+    background-color: #AB3436;
     color: #fff;
 }
 
@@ -115,7 +115,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #ec0a2f;
+    background-color: #AB3436;
     color: #ebd9d9;
 }
 
