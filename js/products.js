@@ -11,12 +11,14 @@ var cartElements = document.querySelector("#cart_elements");
 var cake = document.getElementById("cake_btn")
 
 function displayItems() {
+    localStorage.clear();
     cartDisplay.innerHTML = "";
     cartElements.innerHTML = null;
     for(let i = 0; i < cartList.length; i++) {
         cartDisplay.innerHTML += `${cartList[i]} <br>`;
         cartElements.innerHTML += `${cartList[i]} \n`;
     }
+    localStorage.setItem("Cart Elements", cartElements.innerHTML)
 }
 
 displayItems();

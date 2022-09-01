@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/place_order.css">
     <!--Favicon code-->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
@@ -31,9 +32,6 @@
                 <a class="nav-link" href="products.html">MENU</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="place_order.html">PLACE ORDER </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="about.html">ABOUT US</a>
               </li>
             </ul>
@@ -48,7 +46,34 @@
               </button>
             </div>
         </div>
-      </nav>
+    </nav>
+
+    <main class="d-flex justify-content-center">
+      <div id="form-div" class="border my-3 rounded-3">
+        <form action="" class="form p-3 text-start">
+          <label for="" class="form-label">Name</label>
+          <input class="form-control" type="text" name="name" id="" required>
+          <label for="" class="form-label">Tel</label>
+          <input class="form-control" type="tel" name="Telephone" id="" required>
+          <label for="" class="form-label">Email</label>
+          <input class="form-control" type="email" name="Email" id="" required>
+
+          <label for="" class="form-label">Address</label> <br>
+          <textarea name="Address" id="" cols="30" rows="5"></textarea> <br>
+
+          <label for="" class="form-label">Items Selected:</label> <br>
+          <textarea readonly class="px-3" name="Orders" id="cart_elements_2" cols="25" rows="10" placeholder="Nothing in Cart..."></textarea> <br>
+          <div class="text-center">
+            <caption>All Items are pre-ordered; same day delivery is not available</caption>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-outline-success">Pre-Order</button>
+          </div>
+        </form>
+      </div>
+
+    </main>
     
+    <script src="js/place_order.js"></script>
 </body>
 </html>
