@@ -128,3 +128,8 @@ transition: o.5s;
     background-color: #AB3436;
     color: #fff;
 }
+
+/*Footer*/
+footer #contact a {
+    color: #fff;
+}
